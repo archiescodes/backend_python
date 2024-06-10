@@ -48,6 +48,7 @@ def list_users():
     ]
     return jsonify(users_list)
 
+# for adding user
 
 @app.route('/add_user', methods=['POST'])
 def add_user():
