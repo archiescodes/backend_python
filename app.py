@@ -33,7 +33,7 @@ def index():
 
     return "Welcome to Flask-app."
 
-
+# We are accessing the list of users fron user table
 @app.route('/list_users', methods=['GET'])
 def list_users():
     users = User.query.all()
