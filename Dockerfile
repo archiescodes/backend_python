@@ -4,7 +4,8 @@ FROM python:3.9-slim
 # Set the working directory
 WORKDIR /app
 
-# Install any needed packages specified in requirements.txt
+# Install any needed packages specified in requirements.txt 
+# we need to install all these packages
 RUN pip install Flask 
 RUN pip install psycopg2-binary
 RUN pip install Flask-SQLAlchemy
