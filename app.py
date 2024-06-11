@@ -26,7 +26,7 @@ class User(db.Model):
     last_name = db.Column(db.String(50), nullable=False)
     email = db.Column(db.String(100), nullable=False)
     created_at = db.Column(db.DateTime, default=db.func.current_timestamp())
-
+#  the first HTML page shown is 
 
 @app.route('/')
 def index():
